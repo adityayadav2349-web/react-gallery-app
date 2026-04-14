@@ -44,6 +44,7 @@ const App = () => {
         }
 
         }}>prev</button>
+        <h4>page {index}</h4>
         <button onClick={()=>{
             setIndex(index+1)
         }}>next</button>
