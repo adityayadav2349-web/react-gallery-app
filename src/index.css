@@ -1,0 +1,81 @@
+/* Main container */
+.container {
+  padding: 20px;
+  text-align: center;
+  background-color: #111;
+  min-height: 100vh;
+  color: white;
+}
+
+/* Button */
+.btn {
+  background-color: #fbbf24;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* Image grid */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+/* Image card */
+.card {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Image */
+.card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* No data text */
+.no-data {
+  font-size: 18px;
+  color: #aaa;
+}
+
+.ont{
+  display: flex;
+  justify-content: center;
+
+
+}
+.ont button{
+  background: goldenrod;
+  color: black;
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 9px;
+  width: 100px;
+  border: 1px 0px 0px solid;
+  box-shadow: black;
+  margin-left: 8px;
+  cursor: pointer;
+
+}
+.ont button :active{
+transform: scale(0.95);}
